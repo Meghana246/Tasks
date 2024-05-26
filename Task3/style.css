@@ -1,0 +1,21 @@
+body{
+    background-color: powderblue;
+}
+a:link{
+    color:red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color:red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+p{
+    font-size: 20px;
+}

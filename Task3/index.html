@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function validForm(){
+            var name=document.forms["form"]["name"].value;
+            var email=document.forms["form"]["email"].value;
+            if(name==""||email=="")
+            alert("please fill out all fields");
+        return false;
+        }
+        </script>
+</head>
+<body> 
+    <h1>Welcome to My Webpage</h1>
+    
+      <a href="#">HOME</a><br><br>
+      <a href="#">ABOUT</a><br><br>
+      <a href="#">CONTACT</a><br><br>
+     <h2>FORM</h2>
+    
+
+    <form name="form"onsubmit="return validateForm()">
+    <label for="name">Name:</label>
+    <input type="text"id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email"id="email" name="email"><br><br>
+    <input type="submit"value="submit">
+</form><br>
+<main>
+    <section>
+        <h2>About me</h2>
+        <P>Hello!My name is Meghana. I am a web developer.</P>
+    </section>
+    <section>
+        <h2>contact</h2>
+        <p>Email:meghanasaisri@gmail.com</p>
+        <p>Phone:7386626780</p>
+    </section>
+</main>
+    
+</body>
+</html>
